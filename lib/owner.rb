@@ -1,7 +1,7 @@
 class Owner
-  attr_accessor :cats, :dogs 
+  attr_accessor :cats, :dogs
   @@all = []
-  
+
   def name
     @name.dup.freeze
   end
