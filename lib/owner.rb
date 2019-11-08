@@ -53,7 +53,7 @@ def sell_pets
 end
 
 def list_pets
-puts "I have #{dogs.size} dog(s), and #{cats.size} cat(s)."
+"I have #{dogs.size} dog(s), and #{cats.size} cat(s)."
 end
 
 ### Class Methods ###
