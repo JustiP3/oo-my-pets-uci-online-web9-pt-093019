@@ -19,7 +19,7 @@ def say_species
 end
 
 def cats
-Cats.all.select {|cat| cat.owner == self}
+Cat.all.select {|cat| cat.owner == self}
 end
 
 ### Class Methods ###
