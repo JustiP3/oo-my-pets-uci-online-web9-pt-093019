@@ -33,8 +33,8 @@ end
 
 def buy_cat(cat_name)
   binding.pry
-cat = Cat.all.detect {|cat| cat.name == cat_name}
-cat.owner = self
+this_cat = Cat.all.detect {|cat| cat.name == cat_name}
+this_cat.owner = self
 end
 
 ### Class Methods ###
