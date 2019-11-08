@@ -52,6 +52,12 @@ def sell_pets
  dogs.each {|dog| dog.owner = nil; dog.mood = "nervous"}
 end
 
+def list_pets 
+my_pets = []
+my_pets << dogs
+my_pets << cats 
+end 
+
 ### Class Methods ###
 
 def self.all
