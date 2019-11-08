@@ -32,9 +32,12 @@ def dogs
 end
 
 def buy_cat(cat_name)
-  binding.pry
+
 this_cat = Cat.all.detect {|cat| cat.name == cat_name}
+if this_cat
 this_cat.owner = self
+else
+  Cat.new(cat_name, self)
 end
 
 ### Class Methods ###
