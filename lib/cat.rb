@@ -15,7 +15,7 @@ class Cat
 
   def new_from_name(string, owner)
   Cat.new(string, owner)
-  end 
+  end
 
   ###Class Methods ###
 
