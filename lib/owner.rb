@@ -32,15 +32,7 @@ def dogs
 end
 
 def buy_cat(cat_name)
-
-this_cat = Cat.all.find {|cat| cat.name == cat_name}
-
-if this_cat != nil
-this_cat.owner = self
-else
   Cat.new(cat_name, self)
-end #end of if block
-
 end #end of method
 
 ### Class Methods ###
