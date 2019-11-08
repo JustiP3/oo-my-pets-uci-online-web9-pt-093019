@@ -53,10 +53,7 @@ def sell_pets
 end
 
 def list_pets
-my_pets = []
-my_pets << dogs
-my_pets << cats
-my_pets
+puts "I have #{dogs.size} dog(s), and #{cats.size} cat(s)."
 end
 
 ### Class Methods ###
