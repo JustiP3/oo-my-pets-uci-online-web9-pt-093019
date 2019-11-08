@@ -13,6 +13,10 @@ class Cat
     @@all << self
   end
 
+  def new_from_name(string, owner)
+  Cat.new(string, owner)
+  end 
+
   ###Class Methods ###
 
   def self.all
