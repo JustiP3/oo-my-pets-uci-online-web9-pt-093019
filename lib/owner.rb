@@ -38,7 +38,9 @@ if this_cat
 this_cat.owner = self
 else
   Cat.new(cat_name, self)
-end
+end #end of if block
+
+end #end of method
 
 ### Class Methods ###
 
