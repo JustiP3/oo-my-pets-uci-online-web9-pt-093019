@@ -31,6 +31,7 @@ def dogs
 end
 
 def buy_cat(cat_name)
+  binding.pry 
 cat = Cat.all.detect {|cat| cat.name == cat_name}
 cat.owner = self
 end
