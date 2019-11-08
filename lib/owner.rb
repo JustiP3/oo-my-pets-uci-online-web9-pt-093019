@@ -33,7 +33,7 @@ end
 
 def buy_cat(cat_name)
 
-this_cat = Cat.all.detect {|cat| cat.name == cat_name}
+this_cat = Cat.all.find {|cat| cat.name == cat_name}
 
 if this_cat != nil
 this_cat.owner = self
