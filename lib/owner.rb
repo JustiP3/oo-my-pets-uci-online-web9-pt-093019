@@ -56,6 +56,7 @@ def list_pets
 my_pets = []
 my_pets << dogs
 my_pets << cats
+my_pets 
 end
 
 ### Class Methods ###
