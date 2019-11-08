@@ -27,7 +27,8 @@ def dogs
 end
 
 def buy_cat(cat_name)
-cat_instance.owner = self
+cat = Cat.all.detect {|cat| cat.name == cat_name}
+cat.owner = self
 end
 
 ### Class Methods ###
