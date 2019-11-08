@@ -39,6 +39,11 @@ def buy_dog(dog_name)
   Dog.new(dog_name, self)
 end
 
+def walk_dogs
+  dogs.each {|dog| dog.mood = "happy"}
+end 
+
+
 ### Class Methods ###
 
 def self.all
